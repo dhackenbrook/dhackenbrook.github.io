@@ -29,7 +29,7 @@
 </head>
 <body>
 <h1>Festi — Privacy Policy</h1>
-<p class="updated">Last updated: June 30, 2026</p>
+<p class="updated">Last updated: July 3, 2026</p>
 
 <p>Festi ("the app", "we") is operated by <strong>Dylan Hackenbrook</strong>. This policy
 explains what the app collects, how it's used, and how to delete it. Questions:
@@ -73,8 +73,14 @@ store only what the features need:</p>
   <li><strong>Push notification token</strong> — if you turn on "alert when a friend joins my
       stage," we store your device's push token so we can send that notification
       (e.g. "Alex is at Mainstage").</li>
-  <li><strong>Derived activity stats</strong> — e.g. time spent near a stage, used for badges,
-      only while sharing is on.</li>
+  <li><strong>Derived activity stats</strong> — computed from your location only while sharing
+      is on: total time at the festival, time at individual stages/venues, distance walked, and
+      how long and on which nights you stay into the late-night/early-morning hours. Used to award
+      festival "badges" and "achievements." These are visible to your accepted friends (badges are
+      a friendly competition); you can stop them accruing by turning sharing off.</li>
+  <li><strong>Safety reports &amp; blocks</strong> — if you block or report another user, we
+      store that so we can keep you apart and review the report. Report reasons you submit are
+      visible only to the app operator.</li>
 </ul>
 <p>Set reminders are scheduled <strong>on your device</strong>; no personal data leaves the phone for them.</p>
 
@@ -84,9 +90,11 @@ store only what the features need:</p>
 
 <h2>Who it's shared with</h2>
 <ul>
-  <li><strong>Other users:</strong> only your <strong>accepted friends</strong>, and only your
-      location / meetup pin while you have sharing on. Access is enforced server-side
-      (row-level security).</li>
+  <li><strong>Other users:</strong> your <strong>accepted friends</strong> can see your display
+      name, your activity stats/badges, and — while you have sharing on — your location and meetup
+      pin. Someone you've sent or received a friend request from can see your display name so they
+      can recognize you; <strong>no one else can read your profile</strong>. Access is enforced
+      server-side (row-level security).</li>
   <li><strong>Service providers (processors):</strong>
     <ul>
       <li><strong>Supabase</strong> — hosts our database and authentication.</li>
@@ -101,8 +109,9 @@ store only what the features need:</p>
 <h2>Retention &amp; deletion</h2>
 <p>We keep your data until you delete it. To delete everything, in the app go to
 <strong>Settings → Account &amp; data → Delete account &amp; data</strong>. This permanently
-removes your profile, favorites, friends, shared location, and meetup pin. (A fresh, empty
-anonymous account is created so you can keep using the app.)</p>
+removes your profile, favorites, friends, shared location, meetup pin, activity stats/badges,
+and any blocks or reports you created. (A fresh, empty anonymous account is created so you can
+keep using the app.)</p>
 
 <h2>Location, specifically</h2>
 <p>Location is <strong>precise</strong>, <strong>on by default</strong>, and <strong>revocable</strong>
