@@ -1,6 +1,6 @@
 # Festi — Privacy Policy
 
-_Last updated: July 3, 2026_
+_Last updated: July 8, 2026_
 
 Festi ("the app", "we") is operated by **Dylan Hackenbrook**. This policy explains
 what the app collects, how it's used, and how to delete it. Questions: **dhackenbrook@gmail.com**.
@@ -8,8 +8,9 @@ what the app collects, how it's used, and how to delete it. Questions: **dhacken
 ## The short version
 - We don't ask for your email, phone number, or payment details.
 - We don't show ads and we don't track you across other apps or websites.
-- **"Share my location" is on by default** so friends can find you during the festival — you
-  can turn it off anytime in the app, and only your accepted friends can ever see it.
+- **"Share my location" is on by default** so friends can find you during the festival —
+  you're asked on first launch whether to keep it on, you can turn it off anytime in the
+  app, and only your accepted friends can ever see it.
 - You can delete your account and all of its data from inside the app at any time.
 
 ## What we collect
@@ -21,15 +22,18 @@ the features need:
 - **Display name** — optional, only if you set one.
 - **Favorite artists** — the artists you star, to build your schedule.
 - **Friend connections** — friend requests you send/accept.
-- **Precise location** — **"Share my location" is on by default** (you can turn it off
-  anytime), and location is only used **during the festival's run.** Used to show your
-  position and current stage to your accepted friends, and to compute festival "badges."
-  Collected while sharing is on, **including in the background** so friends keep seeing your
-  live position even when the app isn't open. Controls: turn sharing off entirely, **hide
-  your location from individual friends**, or optionally **share only when within 1 km of a
-  venue**. Turning sharing off stops collection and deletes your shared position; shared
-  positions also **auto-expire after ~10 hours**. On Android a persistent notification shows
-  while it's active.
+- **Precise location** — **"Share my location" is on by default** (you're asked on first
+  launch whether to keep it on, and can turn it off anytime), and location is only used
+  **during the festival's run.** Used to show your position, current stage, and — while
+  you're walking — your **direction of travel and speed** to your accepted friends (their
+  map can also show the **GPS accuracy radius** of your pin, so it's honest about how
+  precise it is), and to compute festival "badges." Collected while sharing is on,
+  **including in the background** so friends keep seeing your live position even when the
+  app isn't open. Controls: turn sharing off entirely, **hide your location from individual
+  friends**, or **share only when within 1 km of a venue** (this "near only" option is
+  **on by default** for new installs). Turning sharing off stops collection and deletes your
+  shared position; shared positions also **auto-expire after ~10 hours**. On Android a
+  persistent notification shows while it's active.
 - **"Meet Here" pins** — if you drop a meetup pin, the location you choose and its label are
   shared with the friends you share location with, and **auto-expire after 1 hour**.
 - **"Bump to connect" location** — if you tap Bump to add a friend in person, we briefly use
@@ -46,6 +50,8 @@ the features need:
   you apart and review the report. Report reasons you submit are visible only to the app operator.
 
 Set reminders are scheduled **on your device**; no personal data leaves the phone for them.
+Your **battery level** is also read **on your device only**, to automatically lower GPS
+accuracy when your battery runs low — it is never stored or sent anywhere.
 
 ## How we use it
 Only to provide the app's features (schedule, map, friends, meetups, reminders). We do
@@ -72,7 +78,10 @@ using the app.)
 
 ## Location, specifically
 Location is **precise**, **on by default**, and **revocable** at any time — toggle "Share my
-location" off in the app, or revoke the permission in your device settings.
+location" off in the app, or revoke the permission in your device settings. On first launch
+the app asks whether to keep sharing on **before** any location permission is requested, and
+records your answer. New installs also default to sharing **only within 1 km of a venue**,
+so you aren't broadcasting from home or your hotel unless you choose to.
 
 ## Children
 Festi isn't directed to children under **16**. We don't knowingly collect data from them.
