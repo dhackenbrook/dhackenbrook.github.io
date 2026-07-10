@@ -1,6 +1,6 @@
 # Festi — Privacy Policy
 
-_Last updated: July 8, 2026_
+_Last updated: July 10, 2026_
 
 Festi ("the app", "we") is operated by **Dylan Hackenbrook**. This policy explains
 what the app collects, how it's used, and how to delete it. Questions: **dhackenbrook@gmail.com**.
@@ -37,8 +37,10 @@ the features need:
 - **"Meet Here" pins** — if you drop a meetup pin, the location you choose and its label are
   shared with the friends you share location with, and **auto-expire after 1 hour**.
 - **"Bump to connect" location** — if you tap Bump to add a friend in person, we briefly use
-  your current GPS position to match you with another nearby person who is also bumping. It's
-  used only to find that match and is discarded shortly after.
+  your current GPS position, plus the moment your phones physically tap (detected by the
+  accelerometer — only that timestamp is sent, never your motion data), to match you with
+  another nearby person who is also bumping. Both are used only to find that match and are
+  discarded shortly after.
 - **Push notification token** — if you turn on "alert when a friend joins my stage," we store
   your device's push token so we can send that notification (e.g. "Alex is at Mainstage").
 - **Derived activity stats** — computed from your location only while sharing is on: total time
