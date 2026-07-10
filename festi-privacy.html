@@ -71,6 +71,12 @@ store only what the features need:</p>
   <li><strong>"Meet Here" pins</strong> — if you drop a meetup pin, the location you choose and
       its label are shared with the friends you share location with, and
       <strong>auto-expire after 1 hour</strong>.</li>
+  <li><strong>"Find nearby" Bluetooth signal</strong> — while the app is open with sharing on,
+      your phone broadcasts a <strong>random Bluetooth identifier that changes every
+      ~15 minutes</strong> so a friend standing nearby can follow a hot/cold signal-strength
+      meter to you. The identifier contains no personal data, and only your accepted friends
+      can link it to you (the same access rules as your location). Bystanders can't identify
+      or follow you across changes. It stops when you close the app or turn sharing off.</li>
   <li><strong>"Bump to connect" location</strong> — if you tap Bump to add a friend in person,
       we briefly use your current GPS position, plus the moment your phones physically tap
       (detected by the accelerometer — only that timestamp is sent, never your motion data),
