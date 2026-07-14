@@ -1,6 +1,6 @@
 # Festi — Privacy Policy
 
-_Last updated: July 10, 2026_
+_Last updated: July 13, 2026_
 
 Festi ("the app", "we") is operated by **Dylan Hackenbrook**. This policy explains
 what the app collects, how it's used, and how to delete it. Questions: **dhackenbrook@gmail.com**.
@@ -36,24 +36,46 @@ the features need:
   persistent notification shows while it's active.
 - **"Meet Here" pins** — if you drop a meetup pin, the location you choose and its label are
   shared with the friends you share location with, and **auto-expire after 1 hour**.
-- **"Find nearby" Bluetooth signal** — while the app is open with sharing on, your phone
-  broadcasts a **random Bluetooth identifier that changes every ~15 minutes** so a friend
-  standing nearby can follow a hot/cold signal-strength meter to you. The identifier contains
-  no personal data, and only your accepted friends can link it to you (the same access rules
-  as your location). Bystanders can't identify or follow you across changes. It stops when
-  you close the app or turn sharing off.
+- **"Find nearby" Bluetooth signal** — while sharing is on (including with the app in the
+  background), your phone broadcasts a **random Bluetooth identifier that changes roughly
+  every 15 minutes** so a friend standing nearby can follow a hot/cold signal-strength meter
+  to you. The identifier contains no personal data, and only your accepted friends can link
+  it to you (the same access rules as your location). Bystanders can't identify or follow
+  you across changes. It stops when you turn sharing off or fully quit the app.
+
+  Because finding works best when both phones help, starting a Find also records, for as long
+  as it's running:
+  - **Who you're finding** — the friend you tapped Find on. Their app is told you're looking
+    for them, so their phone can help by reporting what it hears (below).
+  - **What your phone hears** — the Bluetooth identifier of the friend involved and **how
+    strong that signal is**, so the direction/distance meter still works when only one of the
+    two phones can hear the other. No audio is involved: "hears" means a Bluetooth radio
+    signal strength, nothing more.
+  - **A "someone's finding you" notification** — the friend you're finding is told that you
+    are looking for them (so they can stand still, or wave). Finding a friend is **not
+    silent**: they always know.
+
+  All of it is limited to accepted friends, and it stops when the Find stops.
 - **"Bump to connect" location** — if you tap Bump to add a friend in person, we briefly use
   your current GPS position, plus the moment your phones physically tap (detected by the
   accelerometer — only that timestamp is sent, never your motion data), to match you with
   another nearby person who is also bumping. Both are used only to find that match and are
   discarded shortly after.
-- **Push notification token** — if you turn on "alert when a friend joins my stage," we store
-  your device's push token so we can send that notification (e.g. "Alex is at Mainstage").
-- **Derived activity stats** — computed from your location only while sharing is on: total time
-  at the festival, time at individual stages/venues, distance walked, and how long and on which
-  nights you stay into the late-night/early-morning hours. Used to award festival "badges" and
-  "achievements." These are visible to your accepted friends (badges are a friendly competition);
-  you can stop them accruing by turning sharing off.
+- **Push notification token** — we store your device's push token so we can send you the
+  notifications you've enabled: "alert when a friend joins my stage" (e.g. "Alex is at
+  Mainstage"), and "someone's finding you" when a friend starts a Find Nearby on you.
+- **Derived activity stats** — computed from your location only while sharing is on, and only
+  while you're **at the festival**:
+  - total time at the festival, and time at individual stages/venues;
+  - distance walked, and the longest you stayed in one spot;
+  - how long and on which nights you stay into the late-night/early-morning hours;
+  - **which music genres you spend your time in front of** — worked out by matching the stage
+    you're standing at against who is playing there at that moment. This is an approximation of
+    your listening at the festival, not a record of what you actually heard;
+  - **how many friends you have** in the app.
+
+  Used to award festival "badges" and "achievements." These are visible to your accepted friends
+  (badges are a friendly competition); you can stop them accruing by turning sharing off.
 - **Safety reports & blocks** — if you block or report another user, we store that so we can keep
   you apart and review the report. Report reasons you submit are visible only to the app operator.
 
