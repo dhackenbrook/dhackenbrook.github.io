@@ -1,6 +1,6 @@
 # Festi — Privacy Policy
 
-_Last updated: July 13, 2026_
+_Last updated: July 15, 2026_
 
 Festi ("the app", "we") is operated by **Dylan Hackenbrook**. This policy explains
 what the app collects, how it's used, and how to delete it. Questions: **dhackenbrook@gmail.com**.
@@ -42,6 +42,17 @@ the features need:
   to you. The identifier contains no personal data, and only your accepted friends can link
   it to you (the same access rules as your location). Bystanders can't identify or follow
   you across changes. It stops when you turn sharing off or fully quit the app.
+
+  On phones that support it (recent iPhones, and some newer Android phones in a future
+  update), Find Nearby can also use **ultra-wideband (UWB) radio** to show the precise
+  distance — and, when possible, the direction — to the friend you're finding. To start it,
+  the two phones exchange a **random, single-use session code** through our server, visible
+  only to the two of you under the same access rules as your location. The distance itself
+  is measured **directly between the two phones and never touches our servers** — we never
+  see or store how far apart you are. The session code is useless outside that one Find,
+  is discarded when the Find ends, and can't be linked across sessions. Precise mode only
+  runs while **both of you have the app open**, and only between phones whose owners could
+  already see each other's location.
 
   Because finding works best when both phones help, starting a Find also records, for as long
   as it's running:
